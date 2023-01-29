@@ -1,0 +1,75 @@
+Python es un lenguaje re popular lanzado en 1991.
+
+En python se puede hacer.
+
+-Software Multiplataforma
+-Videojuegos
+-Aplicaciones Web
+-Aplicaciones Big Data
+-Inteligencia Artificial.
+
+Su sintaxis en simple, al igual que Javascript es un lenguaje interprete y orientado a objetos.
+Su sintaxis es similar a leer en inglés.
+Usa el salto de línea para completar un comando.
+Se basa en sangría para definir el alcance.
+
+La sangria me permite definir que está dentro de mi if, for, while, etc y lo que este afuera no.
+Las variables ya no se declaran de la misma forma que otros lenguajes, no hay que especificar el tipo nisiquiera decir que es una variable. Simplemente le ponemos nombre, por ende no existe declaración de variables sino que directamente le damos un valor cuando la usemos.
+
+Los datos de python son inmutables (no cambian), cuando se asigna otro nombre se asigna el nuevo en un espacio diferente en memoria, se lo linkea a la variable en cuestión y el dato anterior se borra.
+En python no existen las constantes, son todas variables
+
+Las cadenas se definen con "" 
+Los caracteres con ''
+Los int y float sin "" o ''  
+
+El código es leido muchisimas más veces que escrito por ende es muy importante cuidar las reglas de estilo. Lo más importante es que sea legible.
+
+PEP (Python Enhancement Proposal) proporciona información a la comunidad de python , o describe una nueva caracteristica.
+
+El PEP8 tiene las recomendaciones para escribir un código legible en Python.
+En python no se usan llaves. Los bloques se manejan por identación.
+
+Las funciones se definen con la palabra especial def.
+El desarrollo de la función debe estar identado con una tabulación para que Python lo reconozca.
+
+Una línea no debe exceder los 79 caracteres.
+
+Las líneas en blanco en algunos casos mejora la legibilidad del código.
+Por ejemplo variable = valor (Correcto) variable=valor (Incorrecto)
+
+Cualquier comentario que contradiga el código es peor que ningún comentario.
+
+Nombres
+
+Funciones: Letras en minúscula separadas por un guión bajo -> funcion, mi_funcion_sumar
+Variables: Igual que las funciones -> variable, mi_variable.
+Clases: Uso de UpperCammelCase sin guión bajo -> Clase, MiClase, ClaseDePueba.
+Métodos: Al igual que las funciones -> metodo , mi_metodo
+Constantes (NO EXISTEN): Igual que variables y funciones pero con mayúscula -> CONSTANTE, MI_CONSTANTE
+Módulos: Al igual que las funciones -> modulo.py, mi_modulo.py.
+
+En python 2 los archivos se codifican en ASCII y en python 3 en UTF-8, es necesario definirlo en la primer línea del código.
+
+En python son una etiqueta , permite hacer referencia a datos (que se guardan en unas "cajas" llamadas objetos)
+Para cada dato que aparece en el programa. Python crea un objeto que lo contiene.
+La gestión de memoria la hace el Garbage Collector
+
+Un objeto tiene. 
+-Un id único (númerico) -> Que permite a Python referirse al objeto sin ambigüedades.
+-Un tipo de datos (entero, decimal, cadena, etc) -> que permite saber a python qué operaciones se pueden hacer con ese dato.
+-El valor del dato
+
+Algunos lenguajes exigen que se les asigne el tipo de dato (Fuertemente tipado) como C, C++, Java, etc.
+Y otros como Python no (Javascript, PHP, etc) y el interprete del mismo decide de que tipo es al momento en el que se le guarda información.
+
+Las variables en PYTHON SE CREAN CUANDO SE DEFINEN (O sea cuando se necesiten usar)
+La función type me dice de que tipo es mi variable.
+True y False van con la primer letra en Mayúscula
+
+Las cadenas van con comillas simples y dobles
+El parseo de Javascript ahora se hace casting. Se castea al reves que otros lenguajes.
+Donde el tipo de dato es el nombre de la función.
+int(dato), str(dato), float(dato)
+
+Cuando cambio el valor de mi variable el id es distinto.

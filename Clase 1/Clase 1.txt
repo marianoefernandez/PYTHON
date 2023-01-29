@@ -1,0 +1,25 @@
+A diferencia de la mayoria de los lenguajes ahora al usar el operador de división (/) sea cual sea lo que nosotros dividamos el resultado será un número flotante (Ya no hace falta casting)
+Si necesito redondear a entero se usa el operador // 
+El operador ** calcula potencia.
+
+El &&, || y ! en las instrucciones lógicas ahora es reemplazado por palabras
+
+&& es and
+|| es or
+! es not
+
+Mientras que el != sigue existiendo de la misma forma ya que no es un operador lógico sino de relación.
+A diferencia de otros lenguajes en Python no existe el ++ ni el --
+
+El match es el nuevo switch. Recién se implemento en la versión 3.10 y no es tan adaptado a Python actualmente.
+
+El do while no existe. Se puede simular un do while inicializando la condicion en True la primera vez. O (De una forma más prolija) dandole como valor al bucle while un true hasta que un break diga lo contrario.
+
+Range genera una secuencia de números
+
+El for sólo sabe recorrer una lista. Con Range generamos esa misma lista.
+El for recorre cualquier elemento iterable sea cual sea.
+
+Match me permite organizar bloques de códigos que se ejecuten cuando se cumple cierta condición.
+Funciona igual al switch. No hay break y se cambia por un return.
+Match soporta una especie de & y | para elegir varias opciones.

@@ -1,0 +1,23 @@
+Python soporta números complejos. Que son aquellos que tienen una parte real y una imagiaria.
+La parte imaginaria se expresa con la letra j.
+Se puede acceder a la parte real con variable.real y a la parte imaginaria con variable.imag.
+
+Una lista es una sucesión de cosas (DE CUALQUIER TIPO DE DATO) una misma lista puede almacenar enteros, flotantes, enteros, etc sin importar el orden.
+Se maneja de manera similar a los arrays ya que posee un indice que se accede mediante corchetes [].
+
+El metodo append me permite agregar cosas a mi lista.
+
+Las tuplas sin similares a la listas pero no pueden ser modificadas (El orden y el contenido de los elementos queda igual)
+Se puede convertir una tupla a una lista y una lista a una tupla.
+
+Los diccionarios (dict) se diferencia de la lista los elementos tienen una clave valor (En vez de indices nos referimos a una clave especifica).
+
+Los elementos set son únicos (No se pueden repetir), no respetan el orden que tenian al ser declarados (Se ordenan auntomaticamente). Al igual que las tuplas no se pueden modificar.
+
+A diferencia de otros lenguajes en Phyton yo puedo mostrar desde un indice a otro muy fácilmente variable[indice comienzo : indice final + 1]
+Los indices negativos no están mal. Se usan, el -1 accede al último elemento de mi lista.
+
+El método append me permite agregar elementos.
+
+En la lista se guarda la dirección de memoria del elemento que guarde y no el valor
+
